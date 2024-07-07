@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitting Forms</title>
+</head>
+<body>
+    <h1>Submitting Forms</h1>
+    <p>⭐ The <b>submit</b> type of input allows the user to send form data</p>
+    <p>⭐ The <b>name</b> attribute is used to tell the database where to store the data</p>    
+    <p>⭐ The <b>value</b> attribute is used to tell the database what to store</p>
+
+    <h2>Submit Form</h2>
+    <form style="border: 3px solid red;margin: 10px;padding: 10px;">
+        <label for="t1">User Name: </label><input type="text" id="t1" name="user_name" required><br>
+        <label for="t1">E-mail</label><input type="text" id="t2" name="email" required>
+        <div style="margin: 10px;border: 2px solid gray;width: 75%;align-items: center;text-align: center;">
+            <h3>your Gender</h3>
+            <label for="male">Male</label><input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label><input type="radio" name="gender" id="female" value="female">
+            <label for="notGender">Not choise</label><input type="radio" name="gender" id="notGender" value="not">
+        </div>
+        <div style="margin: 10px;border: 2px solid gray;width: 75%;align-items: center;text-align: center;">
+            <h3>Other infromation</h3>
+            <label for="state">Maried</label><input type="checkbox" name="State" id="state"><br>
+            <label for="work">Have Work</label><input type="checkbox" name="work" id="work"><br>
+            <label for="lCar">Have linses car</label><input type="checkbox" name="L. Car" id="lCar"><br>
+        </div>
+        <input type="submit" value="Send" >
+    </form>
+
+
+</body>
+</html>
