@@ -12,9 +12,13 @@
     <p>⭐ The <b>value</b> attribute is used to tell the database what to store</p>
 
     <h2>Submit Form</h2>
-    <form style="border: 3px solid red;margin: 10px;padding: 10px;">
-        <label for="t1">User Name: </label><input type="text" id="t1" name="user_name" required><br>
-        <label for="t1">E-mail</label><input type="text" id="t2" name="email" required>
+    <form style="border:3px solid red;margin: 10px;padding: 10px;">
+        <div >
+        <label for="t1" style="display: block;margin-top: 10px;color: navy;font-weight: bolder;">User Name: </label>
+        <input type="text" id="t1" name="user_name" required="" placeholder="user name is required"><br>
+        <labe for="t2" style="display: block;margin-top: 10px;color: navy;font-weight: bolder;">E-mail</labe>
+        <input type="text" id="t2" name="email" required="" placeholder="E-mail is required">
+        </div>
         <div style="margin: 10px;border: 2px solid gray;width: 75%;align-items: center;text-align: center;">
             <h3>your Gender</h3>
             <label for="male">Male</label><input type="radio" name="gender" id="male" value="male">
