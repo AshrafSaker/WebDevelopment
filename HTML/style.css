@@ -31,6 +31,7 @@ td {
     border: 1px inset gray;
     padding: 5px;
     margin: 5px;
+    font-family:sans-serif;
 }
 
 th {
@@ -38,5 +39,7 @@ th {
     color: darkblue;
     padding: 5px;
     margin: 5px;
+    font-weight: bolder;
+    font-family: system-ui ;
     
 }
