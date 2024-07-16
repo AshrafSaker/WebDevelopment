@@ -32,6 +32,54 @@
             </tr>
         </table>
     </div>
+    <h2>Colspan </h2>
+    <div>
+        <table style="border:solid">
+            <tr>
+              <th style="border:solid">Month</th>
+              <th style="border:solid">
+              Budget($)</th>
+            </tr>
+            <tr>
+              <td style="border:solid">
+              January</td>
+              <td style="border:solid">
+              500</td>
+            </tr>
+            <tr>
+              <td style="border:solid">
+              February</td>
+              <td style="border:solid">400</td>
+            </tr>
+            <tr>
+              <td style="border:solid"
+              colspan="2">Sum: 900</td>
+            </tr>
+          </table> 
+          <p>Sum row is colspan 2 columns </p>
+    </div>
+    <div>
+        <h2>RowSpan</h2>
+        <table style="border:solid">
+            <tr>
+              <th style="border:solid">Month</th>
+              <th style="border:solid">Budget($)</th>
+              <th style="border:solid">Savings($)</th>
+            </tr>
+            <tr>
+              <td style="border:solid">January</td>
+              <td style="border:solid">500</td>
+              <td style="border:solid" rowspan="2">150</td>
+            </tr>
+            <tr>
+              <td style="border:solid">February</td>
+              <td style="border:solid">400</td>
+            </tr>
+          </table>
+          <p>
+            Savings($) column is rowspan 2 rows
+          </p>
+    </div>
     
 </body>
 </html>
