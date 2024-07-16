@@ -19,3 +19,9 @@ img {
     min-width: 200px;
     max-width: 250px;
 }
+
+table , th , td , tr{
+    border: 2px solid wheat;
+    padding: 2px;
+    margin: 2px;
+}
