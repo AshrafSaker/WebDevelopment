@@ -35,8 +35,12 @@
 <script>
     function done(){
        let doit = document.getElementById('doit');
-       doit.innerHTML = '<h1 > You cliked!</h1>'+Date();
-       doit.style.color = "white";}
+       doit.innerHTML = '<h1 > You cliked!!!! 5s then disapper</h1>'+Date ();
+       doit.style.color = "blue";
+       doit.style.background = "lightblue";
+       function em(){ doit.innerHTML ='to show the Time <b>Click</b> Again!!!'}
+       setTimeout(em,5000);
+    }
     
 
 
