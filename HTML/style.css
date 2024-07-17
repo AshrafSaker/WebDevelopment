@@ -68,3 +68,13 @@ div button:active {
     color: darkgreen;
     box-shadow: 0px 5px 5px wheat;
 }
+
+img {
+    width: 200px;
+    height: 75px;
+
+}
+
+img:hover{
+    transform: scale(3);
+}
