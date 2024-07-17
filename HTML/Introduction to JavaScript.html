@@ -12,7 +12,15 @@
     </h1>
     <div>
         <p>Creat button active with on <b>Onclick</b></p>
-        <button onclick="">Click</button>
+        <button onclick="done()">Click</button>
+        <p id="doit"></p>
     </div>
 </body>
+<script>
+    function done(){
+       let doit = document.getElementById('doit');
+       doit.innerHTML = '<h1> you cliked!</h1>'+Date();
+       alert("Good Done!");
+    }
+</script>
 </html>
