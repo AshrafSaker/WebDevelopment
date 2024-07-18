@@ -1,0 +1,23 @@
+code div{
+    background: black;
+    min-height: 100px;
+    min-width: 50%;
+    color: white;
+    font-size: 30px;
+}
+
+code div span {
+    color:lawngreen;
+}
+
+code div b {
+    color:lightseagreen;
+}
+code div strong {
+    color: lightpink;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
