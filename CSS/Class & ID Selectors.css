@@ -7,3 +7,8 @@
     color: blueviolet;
     text-align: center;
 }
+
+p b {
+    color: red;
+    font-size: 30px;
+}

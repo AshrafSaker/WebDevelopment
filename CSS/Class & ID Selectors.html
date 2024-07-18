@@ -14,9 +14,9 @@
         <h2 class="continer">some text</h2>
         <div>
             <strong>in HTML</strong><br>
-            <<span>p</span> <b>class</b>="continer">Some text < /<span>p</span>>
+            <<span>p</span> <b>class</b>="continer">Some text <<span>/p</span>>
             <br>
-            <strong>in CSS</strong> <br>
+            <br><strong>in CSS</strong> <br>
             <b>.continer{</b> <br>
                 color: navy;<br>
             <b>}</b>
@@ -27,8 +27,8 @@
         <h2 id="intro">some text</h2>
         <div>
             <strong>in HTML</strong><br>
-            <<span>h2</span> <b>id=</b>"intro">some text < /<span>h2</span>>
-            <br><strong>in CSS</strong><br>
+            <<span>h2</span> <b>id=</b>"intro">some text <<span>/h2</span>>
+            <br><br><strong>in CSS</strong><br>
             <b>#intro{</b> <br>
                 background-color: aquamarine;<br>
                 color: blueviolet;<br>
@@ -36,5 +36,20 @@
             <b>}</b>
         </div>
     </code>
+    <h2>Selectors</h2>
+    <p>We can select Element inside <b>Element</b> </p>
+    <code>
+        <div>
+            <strong>in HTML</strong><br>
+            <<span>p</span>>We can select Element inside <<span>b</span>><b>Element</b><<span>/b</span>><<span>/p</span>><br>
+            <br><strong>in CSS</strong><br>
+            <b>p b {</b><br>
+                color: red;<br>
+                font-size: 30px;
+            <br><b>}</b>
+
+        </div>
+    </code>
+
 </body>
 </html>
