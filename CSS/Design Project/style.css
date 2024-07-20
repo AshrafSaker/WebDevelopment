@@ -1,11 +1,25 @@
+body {
+  font-family: Arial;
+}
+
 h1 {
     font-size: 28px;
+}
 
+h2 {
+  color: #2F5A78;
+  font-size:20px;
 }
 
 #position {
-    font-size: 18px;
-  }
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .summary {
-    font-size: 16px;
-  }
+  font-size: 16px;
+}
+
+img {
+  border-radius: 50%;
+}
