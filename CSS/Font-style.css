@@ -60,3 +60,8 @@
 #l3 {
     line-height: 3;
 }
+
+#spacing {
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
