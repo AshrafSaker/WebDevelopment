@@ -1,0 +1,19 @@
+#up {
+    text-transform: uppercase;
+}
+
+#ca {
+    text-transform:capitalize;
+}
+
+#low {
+    text-transform: lowercase;
+}
+
+#under {
+    text-decoration: underline;
+}
+
+#through {
+    text-decoration: line-through;
+}
