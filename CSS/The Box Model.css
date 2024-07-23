@@ -1,0 +1,21 @@
+p {
+    font-weight: bolder;
+    font-size: x-large;
+    
+    position: relative;
+   
+    text-align: center;
+    border: 10px solid red;
+    width: fit-content;
+    padding: 40px;
+    box-shadow: 10px 10px ;
+    margin: 40px;
+}
+
+div {
+    position: relative;
+    border: 5px solid blue;
+    width: fit-content;
+    left: 35%;
+
+}
