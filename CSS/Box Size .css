@@ -1,4 +1,18 @@
 .box {
-    border: 3px solid red;
-    width: 50%;
+    border: 5px solid red;
+    margin: 10px;
+
+}
+
+#p1 {
+    padding: 20px;
+    margin: 10px;
+}
+
+#p2 {
+    margin: 5px 10px 5px 10px;
+    padding: 4px 7px 4px 7px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 3px solid black;
 }
