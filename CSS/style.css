@@ -20,4 +20,13 @@ code div strong {
 
 h1 {
     text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: "cairo black",cursive;
+    color: navy;
+    border: 5px outset ;
+    background-color: lightseagreen;
+    text-shadow: 2px 2px 3px white,-1px -1px 3px yellow;
+    
 }

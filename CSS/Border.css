@@ -1,0 +1,36 @@
+#border {
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "cairo black";
+}
+#double {
+    border: 10px double green;
+}
+
+#dotted {
+    border: 10px dotted green;
+}
+#dashed {
+    border: 10px dashed green;
+}
+
+#solid {
+    border: 10px solid green;
+}
+
+#groove {
+    border: 10px groove red;
+}
+
+#ridge {
+    border: 10px ridge red;
+}
+
+#inset {
+    border: 10px inset red;
+}
+
+#outset {
+    border: 10px outset red;
+}
