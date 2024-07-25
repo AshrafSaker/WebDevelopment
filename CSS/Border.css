@@ -34,3 +34,20 @@
 #outset {
     border: 10px outset red;
 }
+
+#bStyle {
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "cairo black";
+    color: navy;
+    background-color: yellow;
+}
+
+#border-top {
+    border-top: 5px dotted red;
+}
+
+#border-bottom {
+    border-bottom: 5px dashed red;
+}
