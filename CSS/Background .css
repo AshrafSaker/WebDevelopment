@@ -23,3 +23,32 @@
     padding: 10px;
     background-repeat: repeat-y;
 }
+
+#pcc {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#ptr {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+#pbl {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+#ppx {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+}
