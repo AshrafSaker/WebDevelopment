@@ -1,0 +1,25 @@
+#bg-img {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;    
+}
+
+#no-repeat {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;
+    background-repeat: no-repeat;
+}
+
+#repeat-x {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;
+    background-repeat: repeat-x;
+}
+#repeat-y {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;
+    background-repeat: repeat-y;
+}
