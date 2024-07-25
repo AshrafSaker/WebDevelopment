@@ -13,8 +13,10 @@ h1 {
 
 h2 {
   color: #2F5A78;
-  font-size:20px;
-}
+  font-size: 20px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #2F5A78;
+} 
 
 #position {
   font-size: 18px;
