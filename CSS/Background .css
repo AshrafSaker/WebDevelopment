@@ -52,3 +52,19 @@
     background-repeat: no-repeat;
     background-position: 100px 100px;
 }
+#cover {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#contain {
+    background-image: url('css.png');
+    height: 300px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
