@@ -51,3 +51,25 @@
 #border-bottom {
     border-bottom: 5px dashed red;
 }
+
+#Radius {
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "cairo black";
+    color: darkred;
+   
+}
+
+#all {
+    border: 5px inset gray;
+    border-radius: 10px;
+}
+
+#Circle {
+    border: 5px outset gray;
+    border-radius: 50%;
+    width:30%;
+    
+    text-wrap: wrap;
+}
