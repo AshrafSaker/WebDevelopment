@@ -1,0 +1,53 @@
+#sq {
+    list-style-type: square;
+}
+#lower-roman {
+    list-style-type:lower-roman;
+}
+#sq {
+    list-style-type: square;
+}
+#armenian {
+    list-style-type:armenian;
+}
+#circle {
+    list-style-type:circle;
+}
+#decimal {
+    list-style-type:decimal;
+}
+#decimal-leading-zero {
+    list-style-type:decimal-leading-zero;
+}
+#disc {
+    list-style-type:disc;
+}
+#georgian {
+    list-style-type:georgian;
+}
+#lower-alpha {
+    list-style-type:lower-alpha;
+}
+#lower-greek {
+    list-style-type:lower-greek;
+}
+#lower-latin {
+    list-style-type:lower-latin;
+}
+
+#lst ul{
+    border: 2px solid;
+    font-size: x-large;
+    color: red;
+    width:max-content;
+    position: relative;
+    float: inline-start;
+    text-align: center;
+}
+
+#lst ul li {
+    color: navy;
+    background-color: aliceblue;
+    text-align: left;
+}
+
