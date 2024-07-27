@@ -35,19 +35,22 @@
     list-style-type:lower-latin;
 }
 
-#lst ul{
-    border: 2px solid;
-    font-size: x-large;
-    color: red;
-    width:max-content;
-    position: relative;
-    float: inline-start;
-    text-align: center;
-}
 
-#lst ul li {
+li {
     color: navy;
     background-color: aliceblue;
     text-align: left;
+}
+
+#inside {
+    list-style-position: inside;
+}
+
+#outside {
+    list-style-position: outside;
+}
+
+#lsi {
+    list-style-image: url('css.png');
 }
 
