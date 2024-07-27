@@ -1,5 +1,7 @@
-#ls {
-    list-style: circle inside none;
+#ls,#ls li {
+    list-style:  inside url('css.png');
+    background-color: black;
+    color: aliceblue;
 }
 #sq {
     list-style-type: square;
