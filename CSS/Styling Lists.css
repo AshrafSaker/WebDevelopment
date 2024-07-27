@@ -1,3 +1,6 @@
+#ls {
+    list-style: circle inside none;
+}
 #sq {
     list-style-type: square;
 }
