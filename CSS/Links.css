@@ -1,8 +1,41 @@
+body {
+    margin: 0px;
+}
 #color {
     color: green;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #color:hover {
     color: red;
+    background-color: yellow;
+}
+
+ul {
+    padding: 0;
+    margin-top:10px;
+    width: 100%;
+    
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width:31%;
+    color: white;
+    background-color: green;
+}
+
+li a:hover {
+    background-color: navy;
 }
