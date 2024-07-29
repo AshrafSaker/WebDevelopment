@@ -1,0 +1,10 @@
+#basic table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+
+#basic td , #basic th {
+    border: 2px solid black;
+    text-align: center;
+}
