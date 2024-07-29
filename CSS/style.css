@@ -30,3 +30,10 @@ h1 {
     text-shadow: 2px 2px 3px white,-1px -1px 3px yellow;
     
 }
+
+h2 {
+    color:navy;
+    border-bottom: 2px solid blue;
+    background-color: lightcyan;
+    margin-top: 5px;
+}
