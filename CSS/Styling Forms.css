@@ -20,3 +20,12 @@
     font-weight: bold;
     color:green;
 }
+
+#f2 input[type='button'] {
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+}
