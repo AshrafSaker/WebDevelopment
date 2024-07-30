@@ -29,3 +29,7 @@
     font-weight: bold;
     color: white;
 }
+
+#f2 input[type='button']:hover {
+    background-color: gray;
+  }
