@@ -1,0 +1,22 @@
+#f1 input {
+    border: 1px solid green;
+    width: 100%;
+}
+
+#f1 label {
+    color: green;
+    font-weight: bold;
+}
+
+#f2 input[type='text'], #f2 input[type='email'] {
+    border:1px solid green;
+    width:100%;
+    padding: 5px;
+    color: green;
+    font-weight: bold;
+}
+
+#f2 label {
+    font-weight: bold;
+    color:green;
+}
