@@ -1,3 +1,9 @@
 .block {
     display: block;
 }
+
+.inline {
+    display: inline;
+    color: red;
+    font-weight: bold;
+}
