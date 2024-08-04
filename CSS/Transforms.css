@@ -1,0 +1,45 @@
+div.positive {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: #32CD32;
+    transform: rotate(10deg);
+}
+div.negative {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: #32CD32;
+    transform: rotate(-10deg);
+}
+
+div.empty-div {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+ }
+ div.green-div {
+    padding: 50px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid white;
+    transform: rotate(15deg);
+    transform-origin: 25% 75%;
+ }
+
+ .trans {
+    width: 200px;
+    background-color: palegoldenrod;
+    transform: translate(100px, 20px); 
+ }
+
+ .skew {
+    margin-left:50px;
+    width: 200px;
+    padding: 50px;
+    background-color: #32CD32;
+    transform: skew(30deg);
+ }
