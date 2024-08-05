@@ -39,7 +39,11 @@ h2 {
 .summary img {
   float: right;
   border-radius: 50%;
+  transition: transform 1s ease-in-out; 
 }
+.summary img:hover {
+  transform: scale(1.6);
+} 
 
 #copyright {
   text-align: center;
