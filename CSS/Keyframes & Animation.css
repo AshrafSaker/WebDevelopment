@@ -1,0 +1,13 @@
+div.k1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange {
+    0% {background-color: red; }
+    50% {background-color: green; }
+    100% {background-color: blue; }
+}
