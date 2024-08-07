@@ -21,8 +21,24 @@ div.a2 {
     animation-timing-function: ease-in;
     animation-delay: 2s;
 }
-@keyframes colorchange {
-    0% {background-color: red; }
-    50% {background-color: green; }
-    100% {background-color: blue; }
+
+div.a3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 5;
 }
+div.a4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+
