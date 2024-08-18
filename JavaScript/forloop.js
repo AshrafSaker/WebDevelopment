@@ -1,6 +1,7 @@
 console.log('First console!');
-let msg = '0';
-for(var x=0;x>3;x++){
-    console.log(x);
+
+let x = 0;
+for(let i=0;i<3;i++) {
+ x+=i;
 }
 console.log(x);
