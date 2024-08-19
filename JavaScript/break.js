@@ -49,3 +49,15 @@ console.log(`num*i= ${i}=${numb}`)
 //generate the result
 
 console.log("result= ",numb);
+
+
+// print even number
+
+
+
+for(let y=0;y<20;y++){
+    if(y%2!=0){
+        continue;
+    }
+    console.log(y);
+}
