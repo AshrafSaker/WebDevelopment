@@ -1,0 +1,41 @@
+header {
+    background-color: gray;
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-family:'Segoe UI';
+    font-weight: bolder;
+    font-size: 400%;
+    animation: colorChange 4s  infinite ;
+}
+
+@keyframes colorChange {
+    0% {
+        color:aliceblue;
+        text-shadow: 0px 2px 5px palevioletred;
+    }
+
+    30% {
+        color: aqua;
+        text-shadow: 0px 2px 5px aliceblue;
+
+    }
+
+    60% {
+        color: palevioletred;
+        text-shadow: 0px 2px 5px bisque;
+
+    }
+
+    100% {
+        color: bisque;
+        text-shadow: 0px 2px 5px aqua;
+
+    }
+}
