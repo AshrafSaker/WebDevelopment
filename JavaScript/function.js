@@ -17,3 +17,22 @@ function login(){
 }
 
 login();
+
+// parameter
+
+function permiter(x,y){
+    let d = x + y;
+    console.log(`d=x+y = ${d}`);
+    let area = d * 2;
+
+    console.log(`Permeter for rectangle or Square shape ${area}`);
+    console.log(`Area for rectangle or Square shape ${x*y}`);
+
+}
+
+let width =Number(prompt('Write width?'));
+let heigh = Number(prompt('write Height?'));
+
+permiter(width,heigh);
+console.log(`width= ${width}`);
+console.log(`heigh= ${heigh}`);
